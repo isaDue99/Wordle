@@ -216,7 +216,7 @@ def color_guess(guess: str, wordle: str) -> Text:
     return pretty_guess
 
 
-def letter_freq(str: str) -> dict:
+def letter_freq(str: str) -> dict[str, int]:
     """Counts how many times each letter appears in input string. Returns dict containing letter-frequency pairs."""
 
     freqs = {}
